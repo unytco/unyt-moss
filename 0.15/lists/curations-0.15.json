@@ -1,0 +1,30 @@
+{
+    "curator": {
+        "name": "Unyt Accounting",
+        "description": "The curation of Moss tools from Unyt Accounting",
+        "contact": {
+            "website": "https://unty.co"
+        },
+        "icon": "https://unyt.co/logo.png"
+    },
+    "curationLists": {
+        "default": {
+            "name": "Default Curation List",
+            "description": "Default Curation List of Unyt Accounting",
+            "tags": [],
+            "tools": [
+                {
+                    "toolListUrl": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+                    "toolId": "unyt",
+                    "versionBranch": "0.1.x",
+                    "tags": [
+                        "community-currency",
+                        "accounting",
+                        "mutual-credit",
+                        "payment systems"
+                    ]
+                }
+            ]
+        }
+    }
+}

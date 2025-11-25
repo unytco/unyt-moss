@@ -1,0 +1,19 @@
+{
+  "name": "@unytco/weave-tool-curation-0.15",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --loader ts-node/esm ./validate-lists.js",
+    "write-curation-list": "node --loader ts-node/esm --abort-on-uncaught-exception ./write-curation-list.js",
+    "write-collective-list": "node --loader ts-node/esm --abort-on-uncaught-exception ./write-collective-list.js",
+    "write-lists": "npm run write-curation-list && npm run write-collective-list && npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@theweave/moss-types": "0.5.0",
+    "ts-node": "10.9.2",
+    "semver": "7.6.3"
+  }
+}
