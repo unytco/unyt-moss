@@ -16,13 +16,13 @@ export default defineCurationLists({
             tags: [],
             tools: [
                 {
-                    toolListUrl: "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+                    toolListUrl:
+                        "https://raw.githubusercontent.com/unytco/unyt-moss/refs/heads/main/0.15/lists/tool-list-0.15.json",
                     toolId: "unyt",
                     versionBranch: "0.1.x",
-                    tags: [
-                      "community-currency", "accounting", "mutual-credit", "payment systems"
-                    ]
-                }
+                    tags: ["community-currency", "accounting", "mutual-credit", "payment systems"],
+                    visiblity: "low",
+                },
             ]
         }
     }

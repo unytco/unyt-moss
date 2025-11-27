@@ -25,14 +25,14 @@
             "versions": [
                 {
                     "version": "0.1.0",
-                    "url": "https://github.com/lightningrodlabs/moss/releases/download/unyt-happ-v0.1.0/unyt.webhapp",
+                    "url": "https://github.com/unytco/unyt-moss/releases/download/v0.1.0/unyt.webhapp",
                     "hashes": {
-                        "happSha256": "53f78dc0c686f90f1e5d8010b90780ce6b269b8a71eb27b8664f11f3b4e9be4b",
-                        "webhappSha256": "586ac7e381e4ccd8b936cf775432c8ed4f557c90dd6586f101ebbdb3dea3b858",
-                        "uiSha256": "e496a8a7576a4ab895c9271cb0105aee1ab5c766c50f6f6ee61e4875c956b4d2"
+                        "happSha256": "b2cd746b0d89ce9246b6d516164796617def2ac1837fb8993aebf8f57cc81004",
+                        "webhappSha256": "d9ccb554c17ceae0c9483b88fbb2a6667881c5923d8cdf68b3e8569430751353",
+                        "uiSha256": "1cfa999a09f867978a7dbbf5e37a0f826ce07d1dc9cf09db9f439b2ae591c6db"
                     },
-                    "changelog": "Initial release",
-                    "releasedAt": 1763861420732
+                    "changelog": "Test release",
+                    "releasedAt": 1764253393292
                 }
             ]
         }
