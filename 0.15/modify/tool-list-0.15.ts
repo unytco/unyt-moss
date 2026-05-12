@@ -56,6 +56,30 @@ export default defineDevCollectiveToolList({
           },
           "changelog": "Test release 2",
           "releasedAt": 1765992014455
+        },
+      ],
+    },
+    {
+      id: "unyt",
+      versionBranch: "0.90.x",
+      title: "Unyt",
+      subtitle: "credit and payment system tooling",
+      description: "Unyt is a tool for creating credit and payment systems with Smart Agreement functionality.",
+      icon: "https://github.com/unytco/unyt-moss/releases/download/v0.90.0/icon.png",
+      tags: [
+          "community-currency", "accounting", "mutual-credit", "payment systems"
+      ],
+      versions: [
+        {
+          "version": "0.90.0",
+          "url": "https://github.com/unytco/unyt-moss/releases/download/v0.90.0/unyt.webhapp",
+          "hashes": {
+            "happSha256": "4711b3b0ac10ff4e6aeda7cb29fd980fe7f4f0aba235a9328c6e8409310e8700",
+            "webhappSha256": "ef5cbec3bd73162b78306a42885e80aae2346bff44e584658121017d61633a50",
+            "uiSha256": "52470caded45c9185e4728ccf79ec95394d4fdcd7b0f47a16c3b6cd1ca40ecd0"
+          },
+          "changelog": "Adds configuration wizard, and many improvements and bug fixes.",
+          "releasedAt": 1778621506346
         }
       ],
     },
